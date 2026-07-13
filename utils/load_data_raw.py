@@ -1,12 +1,14 @@
 import pandas as pd
+from pathlib import Path
 
+ROOT = Path(__file__).resolve().parent
 
-from config import RAW_DATA
+DATA_RAW = ROOT / "data" / "dataset_raw.csv"
 
 
 def load_data_raw():
     return pd.read_csv(
-        RAW_DATA,
+        DATA_RAW,
         low_memory=False,
-        encoding="latin1"
+        encoding="latin1",
     )
