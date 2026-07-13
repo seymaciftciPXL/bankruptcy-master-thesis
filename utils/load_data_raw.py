@@ -1,9 +1,5 @@
 import pandas as pd
-from pathlib import Path
-
-ROOT = Path(__file__).resolve().parent
-
-DATA_RAW = ROOT / "data" / "dataset_raw.csv"
+from config import DATA_RAW
 
 
 def load_data_raw():
