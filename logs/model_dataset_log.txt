@@ -1,0 +1,37 @@
+MODEL DATASET CONSTRUCTION LOG
+============================================================
+
+Selection criteria
+------------------------------------------------------------
+rechtsvorm: BV, BVBA
+nature: 1, 2, 7
+bookyear: 2017, 2018, 2019
+target: jaar_van_faling == bookyear + 1
+
+Original dataset: 981,818 rows x 107 columns
+Final dataset: 981,818 rows x 91 columns
+Unique companies: 366,024
+
+Target distribution
+------------------------------------------------------------
+0: 978,996 (99.713%)
+1: 2,822 (0.287%)
+
+High-missing columns removed (16)
+------------------------------------------------------------
+openingfaling
+rub11
+rub12
+rub15
+rub21_28
+rub29
+rub290
+rub291
+rub37
+rub439
+rub51_53
+rub66
+rub70
+rub76
+rub9900
+rub9902

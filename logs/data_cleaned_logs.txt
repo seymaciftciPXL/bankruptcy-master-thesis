@@ -1,0 +1,27 @@
+DATA CLEANING LOG
+============================================================
+
+Original dataset: 981,818 rows x 91 columns
+
+Final dataset: 981,818 rows x 91 columns
+
+MISSING THRESHOLD: 90%
+
+HIGH-MISSING COLUMNS REMOVED (16)
+------------------------------------------------------------
+openingfaling
+rub11
+rub12
+rub15
+rub21_28
+rub29
+rub290
+rub291
+rub37
+rub439
+rub51_53
+rub66
+rub70
+rub76
+rub9900
+rub9902

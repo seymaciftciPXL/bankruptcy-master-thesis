@@ -1,0 +1,20 @@
+FEATURE ENGINEERING LOG
+============================================================
+
+Rows: 981,818
+Columns: 96
+
+Created features
+------------------------------------------------------------
+profitability
+liquidity
+solvency
+structure
+log_age
+
+Winsorization (1st/99th percentile)
+------------------------------------------------------------
+profitability: [-2.5710, 0.7644]
+liquidity: [0.0060, 100.6048]
+solvency: [-15.6002, 0.9971]
+structure: [0.0392, 1.0000]
