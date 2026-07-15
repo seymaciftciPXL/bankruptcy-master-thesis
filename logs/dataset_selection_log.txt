@@ -1,4 +1,4 @@
-MODEL DATASET CONSTRUCTION LOG
+DATASET SELECTION LOG
 ============================================================
 
 Selection criteria

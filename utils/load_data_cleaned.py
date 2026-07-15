@@ -1,9 +1,9 @@
 import pandas as pd
-from config import DATA_CLEANED
+from config import DATASET_CLEANED
 
 
 def load_data_cleaned():
     return pd.read_csv(
-        DATA_CLEANED,
+        DATASET_CLEANED,
         low_memory=False
     )

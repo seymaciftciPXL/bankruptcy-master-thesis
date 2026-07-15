@@ -7,7 +7,7 @@ def save_model_results(model_name, metrics):
     """Append (or update) one model's metrics in the shared results log.
 
     Keeping this in one file instead of hardcoding numbers in
-    11_model_comparasion.ipynb means the comparison table always reflects
+    12_model_comparison.ipynb means the comparison table always reflects
     the last run of each model notebook.
     """
     row = {"model": model_name, **metrics}

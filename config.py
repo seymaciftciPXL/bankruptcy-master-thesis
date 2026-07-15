@@ -4,10 +4,10 @@ ROOT = Path(__file__).resolve().parent
 
 DATA = ROOT / "data"
 
-DATA_RAW = DATA / "raw" / "dataset_raw.csv"
-DATA_CLEANED = DATA / "processed" / "data_cleaned.csv"
-DATA_MODEL = DATA / "processed" / "model_dataset.csv"
-DATA_FEATURES = DATA / "processed" / "model_features.csv"
+DATASET_RAW = DATA / "raw" / "dataset_raw.csv"
+DATASET_CLEANED = DATA / "processed" / "dataset_cleaned.csv"
+DATASET_SELECTED = DATA / "processed" / "dataset_selected.csv"
+DATASET_FEATURES = DATA / "processed" / "model_features.csv"
 
 LOGS = ROOT / "logs"
 MODEL_RESULTS_LOG = LOGS / "model_results.csv"
@@ -15,7 +15,7 @@ MODEL_RESULTS_LOG = LOGS / "model_results.csv"
 MISSING_THRESHOLD = 0.90
 
 # -------------------------------------------------------------------
-# Sample selection (see 04_dataset_selection_org.ipynb)
+# Sample selection (see 04_dataset_selection.ipynb)
 # -------------------------------------------------------------------
 
 RECHTSVORMEN = ["BV", "BVBA"]
