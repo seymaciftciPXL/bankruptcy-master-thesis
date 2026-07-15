@@ -32,9 +32,16 @@ TARGET = "target"
 # up in both the train and the test set. A time-based split avoids
 # this and mirrors how the model would actually be used (predict the
 # next, still-unseen year).
+#
+# TRAIN_YEARS is the baseline used by 07-10: a single training year
+# (2018, the year closest to the 2019 test year), comparable to the
+# single-year setup in Cultrera & Bredart. TRAIN_YEARS_EXTENDED adds
+# 2017 and is used only in 11_train_window_sensitivity.ipynb, to check
+# whether a second training year actually improves on the baseline.
 # -------------------------------------------------------------------
 
-TRAIN_YEARS = [2017, 2018]
+TRAIN_YEARS = [2018]
+TRAIN_YEARS_EXTENDED = [2017, 2018]
 TEST_YEAR = 2019
 RANDOM_STATE = 42
 
