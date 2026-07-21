@@ -12,6 +12,8 @@ DATASET_FEATURES = DATA / "processed" / "model_features.csv"
 LOGS = ROOT / "logs"
 MODEL_RESULTS_LOG = LOGS / "model_results.csv"
 
+FIGURES = ROOT / "figures"
+
 MISSING_THRESHOLD = 0.90
 
 # -------------------------------------------------------------------
